@@ -27,6 +27,8 @@ public class Bateria {
         this.carga = carga;
     }
     
-    
+    public Bateria(){
+        carga=1000;
+    }
     
 }

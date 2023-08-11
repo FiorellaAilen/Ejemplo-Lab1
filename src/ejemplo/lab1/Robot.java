@@ -2,12 +2,12 @@ package ejemplo.lab1;
 public class Robot {
     private Bateria bateria;
     private int num;
-    private boolean despierto;
+    private boolean dormido;
 
-    public Robot(Bateria bateria, int num, boolean despierto) {
+    public Robot(Bateria bateria, int num, boolean dormido) {
         this.bateria = bateria;
         this.num = num;
-        this.despierto = despierto;
+        this.dormido = dormido;
     }
 
     public Bateria getBateria() {
@@ -26,14 +26,14 @@ public class Robot {
         this.num = num;
     }
 
-    public boolean isDespierto() {
-        return despierto;
+    public boolean isDormido() {
+        return dormido;
     }
 
-    public void setDespierto(boolean despierto) {
-        this.despierto = despierto;
+    public void setDormido(boolean dormido) {
+        this.dormido = dormido;
     }
-    
+     
      public void Avanzar(int cantidadDePasos) {
         int consumo=(cantidadDePasos/100)*10;
         if (bateria.getCarga()>=consumo) {
