@@ -1,6 +1,5 @@
 package ejemplo.lab1;
 
-
 public class Hombre {
     
     private Robot jugarConRobot;

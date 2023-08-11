@@ -1,7 +1,4 @@
-
 package ejemplo.lab1;
-
-
 public class Bateria {
     private String tipoBat;
     private int carga;
