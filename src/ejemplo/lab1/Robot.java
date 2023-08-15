@@ -4,6 +4,12 @@ public class Robot {
     private int num;
     private boolean dormido;
 
+    public Robot(Bateria bateria, int num) {
+        this.bateria = bateria;
+        this.num = num;
+        
+    }
+
     public Robot(Bateria bateria, int num, boolean dormido) {
         this.bateria = bateria;
         this.num = num;
